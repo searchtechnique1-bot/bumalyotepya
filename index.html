@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bumal YotePya - မြန်မာ့ရုပ်ပြများ</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Bumal YotePya</h1>
+            <p>Bumal YotePya - မြန်မာ့ရုပ်ပြစာအုပ်များ</p>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="#home" class="nav-link">🏠 ပင်မစာမျက်နှာ</a>
+            <a href="#comics" class="nav-link">📚 ရုပ်ပြများ</a>
+            <a href="#about" class="nav-link">ℹ️ အကြောင်း</a>
+            <a href="admin/upload.html" class="nav-link admin-btn">⚙️ Admin</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Welcome Section -->
+        <section id="welcome" class="welcome-section">
+            <div class="welcome-content">
+                <h2>မင်္ဂလာပါ! 👋</h2>
+                <p>Bumal YotePya မှ မြန်မာ့ရုပ်ပြစာအုပ်များကို အခမဲ့ဖတ်ရှုနိုင်ပါသည်</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-number" id="totalComics">0</span>
+                        <span class="stat-label">စာအုပ်ပေါင်း</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="totalPages">0</span>
+                        <span class="stat-label">စာမျက်နှာပေါင်း</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Comics Section -->
+        <section id="comics">
+            <h2 class="section-title">📖 ရုပ်ပြစာအုပ်များ</h2>
+            <div id="comics-list" class="comics-grid">
+                <!-- Comics will be loaded here -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Bumal YotePya. မူပိုင်ခွင့်များရှိပါသည်။</p>
+            <p>Developed with ❤️ for Myanmar Readers</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
